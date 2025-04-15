@@ -57,7 +57,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background: url('../images/bg.1.jpg') no-repeat center center fixed;
+    background: url('images/bg.1.jpg') no-repeat center center fixed;
     background-size: cover;
   }
   
