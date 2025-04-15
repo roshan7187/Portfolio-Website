@@ -875,12 +875,20 @@ pre {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%; }
-.underline {
-  width: 100%;
-  height: 4px;
-  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%,rgb(238, 238, 36) 50%, #ffbd39 100%);
-  margin-top: 5px;
-  opacity: 50%; }
+    .underline {
+      width: 100%;
+      height: 4px;
+      background-image: linear-gradient(
+        to right,
+        #00b4db 0%,
+        #0083b0 50%,
+        #6a11cb 100%
+      );
+      margin-top: 5px;
+      opacity: 0.8;
+      border-radius: 2px;
+    }
+    
   .col-md-1 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 8.33333%;
